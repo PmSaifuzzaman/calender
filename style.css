@@ -1,0 +1,25 @@
+
+.calender-container{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr);
+    row-gap: 20px;
+    column-gap: 15px;
+    
+}
+
+.date , .day{
+    background-color: skyblue;
+    border-radius: 5px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+}
+
+.day{
+    background-color: rgb(131, 124, 124);
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
